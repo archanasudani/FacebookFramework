@@ -1,0 +1,34 @@
+login page elements:
+    Email/Phone Number/Username’ Textbox
+    ‘Password’ Textbox
+    Login Button
+
+Test Scenarios Login Page:
+
+1.Verify that cursor is focused on “Username” text box on the login page
+2.Verify that User is able to Login with Valid Credentials
+3.Verify that User is not able to Login with invalid Username and invalid Password
+4.Verify that User is not able to Login with Valid Username and invalid Password
+5.Verify that User is not able to Login with invalid Username and Valid Password
+6.Verify that User is not able to Login with blank Username or Password
+7.Verify that the password is in encrypted form when entered
+8.Verify that spaces should not be allowed before any password characters attempted
+9.Verify that clicking on browser back button after successful login should not take User to log out mode
+10.Verify that clicking on browser back button after successful logout should not take User to logged in mode
+11.Verify that the password is in encrypted form when entered
+12.Verify the password can be copy-pasted
+13.Verify that User should be able to login with the new password after changing the password
+14.Verify that User should not be able to login with the old password after changing the password
+15.Verify that spaces should not be allowed before any password characters attempted
+16.Verify that the ways to retrieve the password if the User forgets the password
+17.Verify that “Remember password” checkbox is unselected by default (depends on business logic, it may be selected or unselected)
+18.Verify that “Keep me logged in” checkbox is unselected by default (depends on business logic, it may be selected or unselected)
+19.Verify that the timeout of the login session (Session Timeout)
+20.Verify that the logout link is redirected to login/home page
+21.Verify that User is redirected to appropriate page after successful login
+22.Verify that User is redirected to Forgot password page when clicking on Forgot Password link
+23.Verify that User is redirected to Create an account page when clicking on Sign up / Create an account link
+24.Verify that validation message is displayed in case when User leaves Username or Password as blank
+25.Verify that validation message is displayed in case of exceeding the character limit of the Username and Password fields
+26.Verify that validation message is displayed in case of entering special character in the Username and password fields
+27.Verify whether the login form is revealing any security information by viewing page source

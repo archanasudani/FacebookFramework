@@ -32,3 +32,9 @@ Test Scenarios Login Page:
 25.Verify that validation message is displayed in case of exceeding the character limit of the Username and Password fields
 26.Verify that validation message is displayed in case of entering special character in the Username and password fields
 27.Verify whether the login form is revealing any security information by viewing page source
+28.Verify the facebook homepage
+29.Verify the username tab is displayed
+30.Verify the Password tab is displayed
+31.verify the all the create a new accout fields are displayed
+32.verify the dropdown for Birthday fields
+33 verify the male / female radio buttons

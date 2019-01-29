@@ -1,0 +1,454 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Chrome Installation",
+        "description": "",
+        "id": "chrome-installed;chrome-installation;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3801852760,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "That the user is navigated to the ChromeBrowser",
+            "match": {
+              "location": "TestStepDef.step1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3997070076,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I access \"https://www.hsbc.com/\"Website",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.hsbc.com/",
+                  "offset": 10
+                }
+              ],
+              "location": "TestStepDef.step1200(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9373025,
+              "error_message": "java.lang.AssertionError: expected:\u003ctrue\u003e but was:\u003cfalse\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat Steps.TestStepDef.step132(TestStepDef.java:96)\r\n\tat ✽.Then I can see \"\u003cBankName\u003e\"homepage(Examples/test.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "I can see \"\u003cBankName\u003e\"homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cBankName\u003e",
+                  "offset": 11
+                }
+              ],
+              "location": "TestStepDef.step132(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Chrome Installation",
+        "description": "",
+        "id": "chrome-installed;chrome-installation;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2896377467,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "That the user is navigated to the ChromeBrowser",
+            "match": {
+              "location": "TestStepDef.step1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5465270782,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I access \"https://www.barclays.com/\"Website",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.barclays.com/",
+                  "offset": 10
+                }
+              ],
+              "location": "TestStepDef.step1200(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 134290946,
+              "error_message": "java.lang.AssertionError: expected:\u003ctrue\u003e but was:\u003cfalse\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat Steps.TestStepDef.step132(TestStepDef.java:96)\r\n\tat ✽.Then I can see \"\u003cBankName\u003e\"homepage(Examples/test.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "I can see \"\u003cBankName\u003e\"homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cBankName\u003e",
+                  "offset": 11
+                }
+              ],
+              "location": "TestStepDef.step132(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Chrome Installation",
+        "description": "",
+        "id": "chrome-installed;chrome-installation;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2291587786,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "That the user is navigated to the ChromeBrowser",
+            "match": {
+              "location": "TestStepDef.step1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5161217486,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I access \"https://www.lloydsbank.com/\"Website",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.lloydsbank.com/",
+                  "offset": 10
+                }
+              ],
+              "location": "TestStepDef.step1200(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9438732,
+              "error_message": "java.lang.AssertionError: expected:\u003ctrue\u003e but was:\u003cfalse\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat Steps.TestStepDef.step132(TestStepDef.java:96)\r\n\tat ✽.Then I can see \"\u003cBankName\u003e\"homepage(Examples/test.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "I can see \"\u003cBankName\u003e\"homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cBankName\u003e",
+                  "offset": 11
+                }
+              ],
+              "location": "TestStepDef.step132(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Chrome Installation",
+        "description": "",
+        "id": "chrome-installed;chrome-installation;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2264014845,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "That the user is navigated to the ChromeBrowser",
+            "match": {
+              "location": "TestStepDef.step1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5182813674,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I access \"https://www.Santander.com/\"Website",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.Santander.com/",
+                  "offset": 10
+                }
+              ],
+              "location": "TestStepDef.step1200(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9870946,
+              "error_message": "java.lang.AssertionError: expected:\u003ctrue\u003e but was:\u003cfalse\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat Steps.TestStepDef.step132(TestStepDef.java:96)\r\n\tat ✽.Then I can see \"\u003cBankName\u003e\"homepage(Examples/test.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "I can see \"\u003cBankName\u003e\"homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cBankName\u003e",
+                  "offset": 11
+                }
+              ],
+              "location": "TestStepDef.step132(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Chrome Installed",
+    "description": "",
+    "id": "chrome-installed",
+    "keyword": "Feature",
+    "uri": "Examples/test.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Chrome Installation",
+        "description": "",
+        "id": "chrome-installed;chrome-installation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2191606432,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "That the user is navigated to the ChromeBrowser",
+            "match": {
+              "location": "TestStepDef.step1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3960641230,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I access facebook url",
+            "match": {
+              "location": "TestStepDef.step2()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 903945264,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I see facebook homepage",
+            "match": {
+              "location": "TestStepDef.step3()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Chrome Installation",
+        "description": "",
+        "id": "chrome-installed;chrome-installation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2404739504,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "That the user is navigated to the ChromeBrowser",
+            "match": {
+              "location": "TestStepDef.step1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4623068531,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I access gmail url",
+            "match": {
+              "location": "TestStepDef.step22()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 654120091,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I see gmail homepage",
+            "match": {
+              "location": "TestStepDef.step33()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Chrome Installation",
+        "description": "",
+        "id": "chrome-installed;chrome-installation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2213092966,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "That the user is navigated to the ChromeBrowser",
+            "match": {
+              "location": "TestStepDef.step1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8183706689,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I access amazon url",
+            "match": {
+              "location": "TestStepDef.step12()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 683312662,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I see amazon homepage",
+            "match": {
+              "location": "TestStepDef.step13()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Chrome Installation",
+        "description": "",
+        "id": "chrome-installed;chrome-installation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3317343980,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "That the user is navigated to the ChromeBrowser",
+            "match": {
+              "location": "TestStepDef.step1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3777397048,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I access ebay url",
+            "match": {
+              "location": "TestStepDef.step121()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 733276245,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I see ebay homepage",
+            "match": {
+              "location": "TestStepDef.step131()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Chrome Installed",
+    "description": "",
+    "id": "chrome-installed",
+    "keyword": "Feature",
+    "uri": "Features/test.feature"
+  }
+]
